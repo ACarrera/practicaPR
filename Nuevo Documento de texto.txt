@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height:600px;
+    font-size: 30px;
+    color: rgb(61, 60, 60);
+}
+header,footer{
+    width: auto;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;    
+    background-color: gray;
+    color: white;
+    
+}
+main{
+    width: 1265px;
+    height: 768px;
+    
+}
+#left{
+    width: 20%;
+    height: 768px;
+    background-color: cyan;
+    float: left;
+}
+article{
+    width: 760px;
+    height: 768px;
+    background-color:rgb(226, 231, 231);
+    float: left;
+}
+#right{
+    width: 20%;
+    height: 768px;
+    margin-right: -150px;
+    background-color: #FF7F50;
+    float: left;
+}
